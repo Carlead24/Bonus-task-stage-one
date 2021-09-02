@@ -1,0 +1,79 @@
+
+body{
+    margin: 35px;
+    padding: 0;
+}
+
+h3{
+    color:#000;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+
+img{
+    height:500px;
+    width:500px;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.text .underline-small{
+    height: 110px;
+    text-align: center;
+    padding-left: 20px;
+    color:#000;
+    line-height: 0em;
+    font-family: Helvetica;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.text p{
+    text-align: left;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.container1{
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    box-shadow: 40px;
+    padding: 100px 50px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;  
+}
+
+.container1 h2{
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 30px;
+    color:black;
+    padding-bottom : 100px;
+
+}
+
+.container1 .form .fname{
+    color: red;
+}
+
+.button{
+    color: blue;
+    font-size: large;
+}
